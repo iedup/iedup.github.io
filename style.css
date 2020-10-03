@@ -1,0 +1,343 @@
+:root {
+  --light: #f5f5f5;
+  --white: #fff;
+  --font1: "Open Sans", sans-serif;
+  --font2: "Montserrat", sans-serif;
+  --red: #f4a263;
+}
+b {
+  color: var(--red);
+  font-weight: bold;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*  Designing Navbar*/
+.navbar {
+  background-color: white;
+  color: black;
+  font-family: var(--font2);
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  margin: 0;
+  font-size: 25px;
+
+  text-align: center;
+  vertical-align: center;
+  padding: 0;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 5px 20px;
+}
+.nav-link {
+  color: black;
+  font-family: var(--font2);
+  font-weight: normal;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  font-family: var(--font2);
+}
+
+.form i {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.form h2 {
+  color: black;
+  font-size: 18px;
+  font-weight: light;
+  margin: 0 10px;
+}
+
+/*  Designing Hero Section*/
+
+.hero {
+  width: 100%;
+  min-height: 699px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/gamer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.herocontent {
+  width: 100%;
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.herocontent .display-4 {
+  color: white;
+  font-family: var(--font1);
+  padding: 10px 0;
+
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.herocontent .lead {
+  color: whitesmoke;
+  font-weight: normal !important;
+  font-family: var(--font2);
+  font-size: 15px;
+  padding: 10px 0;
+
+  line-height: 40px;
+}
+
+.herocontent .hero-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.herocontent .hero-row .herobutton {
+  background-color: var(--red);
+  color: white;
+  border: none;
+  font-family: var(--font2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.herocontent .hero-row .herobutton:nth-child(2) {
+  border: 2px solid var(--red);
+  background-color: transparent;
+}
+
+/*  Designing Product List Section*/
+
+.product-list {
+  width: 100%;
+  min-height: 600px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-list .container .text-left {
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-bottom: 3px solid #f4a263;
+  color: black;
+  max-width: 200px;
+  margin: 30px 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--font1);
+}
+
+.product {
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 00px;
+
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.product-image {
+  width: 100%;
+  min-height: 250px;
+  background-image: url(images/mac1.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  object-fit: cover;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  background-position: center;
+}
+
+.image2 {
+  background-image: url(images/msi.png) !important;
+  background-size: 80%;
+  background-position: center;
+}
+
+.image3 {
+  background-image: url(images/msi2.png) !important;
+  background-size: 80%;
+  background-position: center;
+}
+
+.image4 {
+  background-image: url(images/asus.png) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.image5 {
+  background-image: url(images/c1.png) !important;
+  background-size: 60%;
+  background-position: center;
+}
+
+.image6 {
+  background-image: url(images/c2.png) !important;
+  background-size: 80%;
+  background-position: center;
+}
+
+.image7 {
+  background-image: url(images/c3.png) !important;
+  background-size: 60%;
+  background-position: center;
+}
+
+.image8 {
+  background-image: url(images/c4.png) !important;
+  background-size: 60%;
+  background-position: center;
+}
+.image8 {
+  background-image: url(images/c4.png) !important;
+  background-size: 60%;
+  background-position: center;
+}
+
+.image9 {
+  background-image: url(images/s1.png) !important;
+  background-size: 60%;
+  background-position: center;
+}
+
+.container {
+}
+.image10 {
+  background-image: url(images/s2.png) !important;
+  background-size: 50%;
+  background-position: center;
+}
+
+.image11 {
+  background-image: url(images/s3.png) !important;
+  background-size: 40%;
+  background-position: center;
+}
+
+.image12 {
+  background-image: url(images/s4.png) !important;
+  background-size: 40%;
+  background-position: center;
+}
+
+.product .display-4 {
+  font-size: 20px;
+  color: black;
+  padding: 10px 0;
+  font-family: var(--font1);
+  margin: 10px;
+  font-weight: normal;
+}
+
+.productrow .lead {
+  color: black;
+  margin: 10px;
+  padding: 10px 0;
+
+  font-family: var(--font2);
+}
+
+.productrow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.productrow .buy {
+  padding: 10px 10px;
+  font-family: var(--font2);
+  background-color: var(--red);
+  font-size: 13px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  border: none;
+}
+
+/*  Designing footer Section*/
+
+.footermain {
+  width: 100%;
+  min-height: 100px;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#footer .nav-link {
+  color: white;
+}
+
+#footer .nav-item {
+}
+#footer .navbar-brand {
+}
+
+#footer i {
+  color: #f4a236;
+  font-size: 17px;
+}
+#footer h1 {
+  font-size: 17px;
+  color: white;
+}
